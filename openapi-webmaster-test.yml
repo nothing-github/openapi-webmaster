@@ -2,6 +2,6 @@ spring:
   datasource:
     username: root
     password: root
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql:///openapi-admin?useUnicode=true&characterEncoding=utf-8
     type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/openapi
+    driver-class-name: com.mysql.jdbc.Driver
